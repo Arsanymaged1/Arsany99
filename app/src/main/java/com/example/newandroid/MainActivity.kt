@@ -14,21 +14,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.newandroid.R
 
-
-
-
-
 class MainActivity : ComponentActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         this.setTitle("calculator")
-
-
         val toolbar = findViewById<Toolbar>(R.id.xml_toolbar)
-        
+
 
         actionBar
         enableEdgeToEdge()
